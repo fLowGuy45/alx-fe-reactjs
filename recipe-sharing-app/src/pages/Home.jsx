@@ -1,16 +1,12 @@
-import RecipeList from '../components/RecipeList'
-import AddRecipeForm from '../components/AddRecipeForm'
+import RecipeList from '../components/RecipeList';
+import AddRecipeForm from '../components/AddRecipeForm';
 
+const Home = () => (
+  <div>
+    <AddRecipeForm />
+    <hr style={{ margin: '2rem 0' }} />
+    <RecipeList />
+  </div>
+);
 
-const Home = () => {
-return (
-<div>
-<AddRecipeForm />
-<hr style={{ margin: '2rem 0' }} />
-<RecipeList />
-</div>
-)
-}
-
-
-export default Home
+export default Home;
