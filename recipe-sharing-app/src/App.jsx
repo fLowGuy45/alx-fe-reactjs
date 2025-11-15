@@ -2,6 +2,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import RecipeDetails from './pages/RecipeDetails';
 import EditRecipeForm from './components/EditRecipeForm';
+import RecipeDetails from "./components/RecipeDetails";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/recipes/:id" element={<RecipeDetails />} />
+	<Route path="/recipe/:id" element={<RecipeDetails />} />
         <Route path="/recipes/:id/edit" element={<EditRecipeForm />} />
       </Routes>
     </div>
