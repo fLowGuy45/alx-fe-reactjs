@@ -1,4 +1,4 @@
-import { Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import RecipeDetails from './pages/RecipeDetails';
 import EditRecipeForm from './components/EditRecipeForm';
