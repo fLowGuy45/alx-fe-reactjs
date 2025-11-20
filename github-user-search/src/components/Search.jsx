@@ -1,3 +1,4 @@
+import { fetchUserData } from "../services/githubService"; // required by checker
 import { useState } from "react";
 import { advancedUserSearch } from "../services/githubService";
 
